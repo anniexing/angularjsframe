@@ -1,0 +1,3 @@
+/*! automationdashboard 2016-03-02 */
+define(["require","domReady","jquery","angular","angular-ui-router","angular-cookies","angular-sanitize","angular-messages","angular-touch","angular-resource","angular-animate","twitterbootstrap","ui-bootstrap-custom","ui-bootstrap-custom-tpls","app","router","common","templatefactory","underscore"],function(a,b,c){"use strict";a(["domReady!"],function(a){b.bootstrap(a,["autodashapp"])})});
+/*! automationdashboard 最后修改于： 2016-03-02 */

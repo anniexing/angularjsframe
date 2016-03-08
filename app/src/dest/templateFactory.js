@@ -1,0 +1,3 @@
+/*! automationdashboard 2016-03-02 */
+define(["app"],function(a){function b(a){function b(a){var b=angular.bind(a,a.fromUrl);return a.fromUrl=function(a,d){return null!==a&&angular.isDefined(a)&&angular.isString(a)&&(a+=-1===a.indexOf("?")?"?":"&",a+="v="+c),b(a,d)},a}var c=Date.now().toString();a.decorator("$templateFactory",["$delegate",b])}a.config(["$provide",b])});
+/*! automationdashboard 最后修改于： 2016-03-02 */

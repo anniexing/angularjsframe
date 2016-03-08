@@ -1,0 +1,3 @@
+/*! automationdashboard 2016-03-02 */
+define(["app"],function(a){return a.run(["$rootScope","$state","$stateParams",function(a,b,c){a.$state=b,a.$stateParams=c,a.serviceUrl="";var d=new Date,e=d.getDate();d.setDate(e+14),a.expireDate=d}]).config(function(a,b,c,d){c.html5mode=!0,c.html5mode=!1,d.useAnchorScroll(),b.otherwise("/home"),a.state("login",{url:"/login",templateUrl:"views/login.html"})})});
+/*! automationdashboard 最后修改于： 2016-03-02 */

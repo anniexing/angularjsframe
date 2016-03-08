@@ -1,0 +1,23 @@
+{
+  "name": "automationdashboard",
+  "version": "1.0.0",
+  "description": "Autmation Dashboard project used to manage Testcase",
+  "main": "index.js",
+  "scripts": {
+    "default": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "automation",
+    "dashboard",
+    "testcase"
+  ],
+  "author": "Annie.Xing",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^0.11.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-wiredep": "^2.0.0"
+  }
+}
